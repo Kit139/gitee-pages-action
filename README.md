@@ -109,7 +109,7 @@ jobs:
 | 10  | Hexo Gitee Pages 自动部署站点问题。                                                                                                                                                | [@No5972](https://github.com/No5972) 详细给出了一种解决方案。[#34](https://github.com/yanglbme/gitee-pages-action/issues/34)                            |
 | ... | ...                                                                                                                                                                                | ...                                                                                                                                                     |
 
-注：
+注意：
 
 1. `branch` 参数默认是 `master`，如果你是部署在 `gh-pages`(或者 `main`) 分支等等，务必指定 `branch: gh-pages`(或者 `branch: main`)。
 1. `branch` 对应的分支，必须在仓库中实际存在，请不要随意（不）指定分支，否则可能导致 Gitee Pages 站点出现 404 无法访问的情况。
